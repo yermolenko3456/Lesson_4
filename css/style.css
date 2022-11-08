@@ -1,0 +1,108 @@
+/*~~~~~~~~~Підключення шрифтів~~~~~~~~~~~*/
+/*  Шрифт Roboto   */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700;900&display=swap');
+
+/* Шрифт Larsseit Regular*/
+   
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+}
+/* Шрифт Larsseit Bolt     */
+@font-face {
+    font-family:"Larsseit-Bold";
+    src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+}
+/* Шрифт Larsseit Medium     */
+@font-face {
+    font-family: "Larsseit-Medium";
+    src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+}
+/* Шрифт Lato-Regular    */
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+}
+/* Шрифт Lato-Black    */
+@font-face {
+    font-family: "Lato-Black";
+    src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+}
+/* Шрифт Lato-Bold    */
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+}
+/*~~~~~~~~Основні стилі~~~~~~~~~*/
+body {
+    font-family: "Larsseit-Bold";
+    font-weight: 700;
+}
+h1 {
+    color: red;
+    font-family: 'Roboto';
+        font-weight: 900; 
+} 
+h2 {
+    color: violet;
+    font-family: 'Lato-Black';
+    font-weight: 900;
+}
+h3 {
+    font-family: 'Lato-Regular';
+    font-weight: 400;
+}
+span {
+    color: rgb(1, 142, 142);
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+a {
+    color: darkgreen;
+}
+p {
+    color: rgb(97, 15, 97);
+}
+
+.text+p {
+    color: plum;
+    font-family: 'Oswald';
+    font-weight: 900;
+}
+.title {
+    color: blue;
+}
+.text {
+    color: green;
+}
+.lesson {
+    color: darkred;
+}
+.text.lesson {
+    color: darkblue;
+}
+.text.lesson+p {
+    color: darkgreen;
+}
+.items {
+    color: orange;
+}
+.item {
+    color: black;
+}
+
+.desc {
+    color: gold;
+}
+.desc~p {
+    color:aqua;
+    font-family: 'Larsseit';
+    font-weight: 400;  
+}
+.subtitle {
+    color: rgb(204, 145, 50);
+}
+.subject,
+.caption {
+    color: brown;
+}
